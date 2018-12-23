@@ -13,7 +13,7 @@ npm install x-hdwallet
 Creating a new HD wallet from a mnemonic:
 
 ```js
-const HDWallet = require('ethereum-hdwallet')
+const HDWallet = require('x-hdwallet')
 
 const mnemonic = 'tag volcano eight thank tide danger coast health above argue embrace heavy'
 const hdwallet = HDWallet.fromMnemonic(mnemonic)
